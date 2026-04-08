@@ -1,0 +1,225 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template for CV/Resume
+%
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Author:
+% Claud D. Park <posquit0.bj@gmail.com>
+% http://www.posquit0.com
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+
+%-------------------------------------------------------------------------------
+% CONFIGURATIONS
+%-------------------------------------------------------------------------------
+% A4 paper size by default, use 'letterpaper' for US letter
+\documentclass[11pt, a4paper]{awesome-cv}
+
+% Configure page margins with geometry
+\geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
+
+% Specify the location of the included fonts
+\fontdir[fonts/]
+
+% Color for highlights
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+%\colorlet{awesome}{awesome-skyblue}
+% Uncomment if you would like to specify your own color
+\definecolor{awesome}{HTML}{0466c8}
+
+% Colors for text
+% Uncomment if you would like to specify your own color
+% \definecolor{darktext}{HTML}{414141}
+% \definecolor{text}{HTML}{333333}
+% \definecolor{graytext}{HTML}{5D5D5D}
+% \definecolor{lighttext}{HTML}{999999}
+
+% Set false if you don't want to highlight section with awesome color
+\setbool{acvSectionColorHighlight}{true}
+
+% If you would like to change the social information separator from a pipe (|) to something else
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+
+%-------------------------------------------------------------------------------
+%	PERSONAL INFORMATION
+%	Comment any of the lines below if they are not required
+%-------------------------------------------------------------------------------
+% Available options: circle|rectangle,edge/noedge,left/right
+%\photo[circle,noedge,right]{./profile}
+\name{Cheick Tidiane}{Ba}
+%\position{Resume for PHD Internship @ Twitter}%{\enskip\cdotp\enskip} 
+%\position{CV}
+%\address{Milan, Italy}
+
+%\mobile{(+39)3930600691}
+\email{cheick.ba@outlook.com}
+\homepage{back7.github.io}
+\linkedin{cheickba7}
+%\twitter{@CheickBa7}
+% \skype{skype-id}
+% \reddit{reddit-id}
+% \medium{madium-id}
+\googlescholar{xRpvJ78AAAAJ&hl}{Cheick Ba}
+%% \firstname and \lastname will be used
+% \googlescholar{googlescholar-id}{}
+\extrainfo{Orcid: 0000-0002-4035-7464 ~~~|~~~ Scopus Author ID: 57210572544 ~~~|~~~ Nationality: Italian ~~~~|~~~~ Languages: Italian, English, French ~~~|~~~ }
+
+%\quote{``Be the change that you want to see in the world."}
+
+%-------------------------------------------------------------------------------
+%	BIBLIOGRAPHY
+%-------------------------------------------------------------------------------
+\addbibresource{references.bib}
+
+\usepackage{multicol}
+
+%-------------------------------------------------------------------------------
+\begin{document}
+
+% Print the header with above personal informations
+% Give optional argument to change alignment(C: center, L: left, R: right)
+\makecvheader[C]
+
+% Print the footer with 3 arguments(<left>, <center>, <right>)
+% Leave any of these blank if they are not needed
+\makecvfooter
+  {\today}
+  {Cheick Tidiane Ba~~~·~~~CV~~~·~~~Made in LaTeX}
+  {\thepage}
+
+%\cvsection{Summary}
+% 3rd year Ph.D. student in Computer Science at the University of Milan. Research and programming activities have led to several projects and publications, mainly in the fields of blockchain analysis, temporal and multilayer networks, and machine learning on graphs. My experience as a teaching assistant, private tutor, and volunteer developed leadership, teaching, and training skills.
+%My research is in data mining and knowledge discovery, network science, and applied machine learning and statistics; with a focus on network evolution and prediction tasks on large-scale temporal data through effective and scalable computational methods.
+
+\begin{refsection}
+
+%-------------------------------------------------------------------------------
+%	CONTENT
+%-------------------------------------------------------------------------------
+\cvsection{Experience}
+\begin{itemize}
+    \item \textit{Nov. 2024 – Present}: \textbf{Pometry Ltd.}, London. \textit{Data Scientist.}  
+    Graph analytics, machine learning, data engineering, and visualisation at scale — applied to blockchain, financial networks, and complex graph-structured data.  
+
+    \item \textit{Nov. 2023 – Nov. 2024}: \textbf{Queen Mary University of London}. \textit{Postdoctoral Research Assistant.}
+    Topic: cross‑chain analysis using multilayer temporal networks with the \underline{\href{https://networks.eecs.qmul.ac.uk/}{Networks Research Group}}.
+
+    \item \textit{Nov. 2020 – Jan. 2024}: \textbf{University of Milan}, Milan. \textit{PhD Researcher.}
+    Topic: temporal multilayer networks, blockchain analysis, and machine learning on graphs. Led the research line on temporal networks and blockchains at the \underline{\href{https://connets.di.unimi.it/}{CONNETS Lab}}.
+
+    \item \textit{May 2020 – Nov. 2020}: \textbf{University of Milan}. \textit{Research Assistant}  
+    Project \href{https://www.vasariartexperience.it/}{VASARI}; Topic: customer segmentation and risk analysis for an Italian financial group with the \underline{\href{https://connets.di.unimi.it/}{CONNETS Lab}}.  
+\end{itemize}
+
+
+
+\cvsection{Skills}
+
+%-------------------------------------------------------------------------------
+%	CONTENT
+%-------------------------------------------------------------------------------
+\begin{cvskills}
+%---------------------------------------------------------
+  \cvskill
+    {Programming} % Category
+    {Python (Advanced), Rust (Intermediate), SQL, Java, PHP, Perl, Latex} % Skills
+    
+
+%---------------------------------------------------------
+  \cvskill
+    {Databases} % Category
+    {Spark, MongoDB, Postgres, Oracle, MySql} % Skills   
+%---------------------------------------------------------
+  \cvskill
+    {Machine learning} % Category
+    {Scikit-learn, PyTorch, Deep graph library, PyTorch geometric} % Skills  
+
+%---------------------------------------------------------
+  \cvskill
+    {Data mining and graph modeling} % Category
+    {Raphtory, pandas, statsmodels, networkx, networkit, Gephi} % Skills  
+
+    %---------------------------------------------------------
+  \cvskill
+    {Web Development} % Category
+    {MongoDB, Express, REST API,React, AngularJS, HTML5/CSS/JavaScript} % Skills
+
+ % %---------------------------------------------------------
+ %  \cvskill
+ %    {DevOps} % Category
+ %    {Git, Jupytherhub} % Skills
+
+%---------------------------------------------------------
+  \cvskill
+    {Languages} % Category
+    {English (C2), Italian (native), French (native), Spanish (beginner), German (beginner) } % Skills
+    
+    \cvskill
+    {Extracurricular} % Category
+    {Basketball, hiking, swimming, travelling, language learning, reading}
+\end{cvskills}
+
+\cvsection{Education}
+
+\begin{itemize}
+\item \textit{26 Jan. 2024}: \textbf{University of Milan, Italy} – \textit{PhD in Computer Science} - cum laude, \textit{Doctor Europaeus}.
+
+
+
+\begin{itemize}
+    \item \textit{May 2023 – Aug. 2023}: \textbf{Queen Mary University of London} – \textit{Visiting PhD Student}
+
+    \item \textit{May 2022 – Aug. 2022}: \textbf{CIRAD Montpellier} - \textit{Visiting PhD Student}
+    % Topics: machine learning on multilayer networks, text mining for food security
+\end{itemize}
+
+    \item \textit{11 Mar. 2020}: \textbf{University of Milan, Italy} - \textit{Master's Degree in Computer Science}, mark: 110/110 cum laude.
+\end{itemize}
+
+
+%----------------------------------------------------------------------------------------------------------------------------------
+
+
+
+%----------------------------------------------------------------------------------------------------------------------------------
+
+
+%-------------------------------------------------------------------------------
+%	SECTION TITLE
+%-------------------------------------------------------------------------------
+
+
+\cvsection{Writing}    
+
+I have contributed to 23 peer-reviewed publications, including international journals and conferences. Among them, 8 are in Q1 journals. A full list of my contributions is available on \underline{\href{https://scholar.google.com/citations?user=xRpvJ78AAAAJ&hl=it}{Google Scholar}}, \underline{\href{https://dblp.uni-trier.de/pid/247/1543.html}{DBLP}}, and \underline{\href{https://www.scopus.com/authid/detail.uri?authorId=57210572544}{Scopus}}.  
+
+\cvsection{Presentations}
+
+I have presented my research at over 20 main conferences on network science, complex systems, and machine learning, including the Mathematical Institute at Oxford, NetSci, CCS, and ECMLPKDD, WebSci. My talks have focused on topics such as temporal multilayer graph analysis, data mining, blockchain and decentralized systems.
+
+
+\cvsection{Honors \& Awards}
+
+\begin{itemize}
+    \item \textbf{2025}: \textbf{FOSS Award}, 20th International Workshop on Mining and Learning with Graphs – ECMLPKDD.
+    \item \textbf{2023}: \textbf{Best Poster Award}, 20th International Workshop on Mining and Learning with Graphs – ECMLPKDD.
+    \item \textbf{2021}: \textbf{“Runner‑up for Best Paper” Award}, 2nd place out of 140 submissions at GoodIT ’21 Conference.
+\end{itemize}
+
+\cvsection{Teaching}
+
+
+\begin{itemize}
+    \item \textbf{2022/2023}, \textbf{University of Pavia, Italy} – \textit{Teaching Assistant}, Artificial Intelligence (12 ECTS), 24h  
+    \item \textbf{2021/2022, 2022/2023}, \textbf{University of Milan, Italy} – \textit{Lecturer}, Social Media Mining (12 ECTS), 7h  
+    \item \textbf{2020/2021, 2021/2022}, \textbf{University of Milan, Italy} – \textit{Teaching Assistant}, Social Network Analysis (6 ECTS), 20h  
+\end{itemize}
+
+
+\end{refsection}
+\end{document}
