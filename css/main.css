@@ -1,0 +1,510 @@
+dt{
+	margin-top: 30px;
+}
+
+.buttonMenu{
+	background-color: transparent;
+   padding: 10px 8px;
+   font: 12px 'opensans-bold', sans-serif;
+}
+
+.buttonMenu:hover{
+	background-color: #0466c8;
+}
+.flag-sep { opacity: 0.35; margin: 0 4px; font-style: normal; }
+.flag-dim { opacity: 0.35; }
+
+
+#pubs .info {
+   font: 16px/24px 'librebaskerville-italic', serif;
+   color: #6E7881;
+   margin-bottom: 18px;
+   margin-top: 9px;
+}
+#pubs .info span {
+   margin-right: 5px;
+   margin-left: 5px;
+}
+#pubs .date {
+   font: 15px/24px 'opensans-regular', sans-serif;
+   margin-top: 6px;
+}
+
+.projs{
+    background: #fff;
+    padding-top: 90px;
+    padding-bottom: 72px;
+    overflow: hidden;
+}
+
+
+#projs {
+   background: #f8f8f8;/*#fff;*/
+   padding-top: 90px;
+   padding-bottom: 72px;
+   overflow: hidden;
+}
+
+#projs a, #projs a:visited  { color: #0466c8; }
+#projs a:hover, #projs a:focus { color: #313131; }
+
+#projs h1 {
+   font: 18px/24px 'opensans-bold', sans-serif;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+}
+#projs h1 span {
+   border-bottom: 3px solid #0466c8;
+   padding-bottom: 6px;
+}
+#projs h3 {
+   font: 25px/30px 'opensans-bold', sans-serif;
+}
+
+#projs .header-col { padding-top: 9px; }
+#projs .main-col { padding-right: 10%; }
+
+#projs .info {
+   font: 16px/24px 'librebaskerville-italic', serif;
+   color: #6E7881;
+   margin-bottom: 18px;
+   margin-top: 9px;
+}
+#projs .info span {
+   margin-right: 5px;
+   margin-left: 5px;
+}
+#projs .date {
+   font: 15px/24px 'opensans-regular', sans-serif;
+   margin-top: 6px;
+}
+
+footer {
+   margin-bottom: 0px;
+   background: #071b33;
+   color: #aaa;
+}
+footer a, footer a:visited { color: #aaa; }
+footer a:hover, footer a:focus { color: #fff; }
+
+/* About - light blue */
+#about { background: #eef5fd; }
+#about p { color: #555; }
+#about a, #about a:visited { color: #0466c8; }
+#about a:hover, #about a:focus { color: #313131; }
+.cv-download {
+   display: flex;
+   justify-content: center;
+   margin-top: 24px;
+}
+.cv-btn {
+   display: inline-flex;
+   align-items: center;
+   gap: 12px;
+   padding: 14px 36px;
+   background: #0466c8;
+   color: #fff !important;
+   border-radius: 6px;
+   font-family: 'Inter', sans-serif !important;
+   font-size: 15px;
+   font-weight: 700 !important;
+   letter-spacing: 1px;
+   text-transform: uppercase;
+   text-decoration: none;
+   box-shadow: 0 4px 14px rgba(4,102,200,0.3);
+   transition: background 0.2s ease, box-shadow 0.2s ease, transform 0.15s ease;
+}
+.cv-btn i { font-size: 16px; }
+.cv-btn:hover {
+   background: #313131;
+   box-shadow: 0 6px 18px rgba(0,0,0,0.2);
+   transform: translateY(-1px);
+}
+
+.about-content {
+   text-align: center;
+}
+.about-content p {
+   max-width: 680px;
+   margin: 0 auto 24px;
+}
+.profile-pic {
+   width: 260px;
+   height: 260px;
+   border-radius: 50%;
+   object-fit: cover;
+   margin: 0 auto 28px;
+   display: block;
+   border: 4px solid #fff;
+   box-shadow: 0 4px 20px rgba(4,102,200,0.15);
+}
+.hero-pic {
+   width: 200px;
+   height: 200px;
+   margin: 0 auto 20px;
+   box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+}
+.about-social {
+   list-style: none;
+   padding: 0;
+   margin: 0 0 24px 0;
+   font-size: 24px;
+}
+.about-social li { display: inline-block; margin: 0 10px; }
+.about-social li a { color: #0466c8; transition: color 0.2s ease; }
+.about-social li a:hover { color: #313131; }
+
+/* ------------------------------------------------------------------ */
+/* Publications — stats + link buttons
+/* ------------------------------------------------------------------ */
+
+.pub-stats {
+   display: flex;
+   gap: 60px;
+   margin-bottom: 56px;
+   justify-content: center;
+}
+.pub-stat {
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+}
+.pub-stat-number {
+   font: 80px/1 'opensans-bold', sans-serif;
+   color: #0466c8;
+   letter-spacing: -3px;
+}
+.pub-stat-label {
+   font: 13px/20px 'opensans-regular', sans-serif;
+   color: #888;
+   text-transform: uppercase;
+   letter-spacing: 1.5px;
+   margin-top: 10px;
+}
+.pub-links-label {
+   font: 12px/24px 'opensans-regular', sans-serif;
+   color: #aaa;
+   text-transform: uppercase;
+   letter-spacing: 1.5px;
+   margin-bottom: 16px;
+}
+.pub-links {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 12px;
+   justify-content: center;
+}
+.pub-links-label {
+   text-align: center;
+}
+.pub-link {
+   display: inline-flex;
+   align-items: center;
+   gap: 8px;
+   padding: 10px 22px;
+   border: 1.5px solid #0466c8;
+   border-radius: 4px;
+   color: #0466c8;
+   font: 15px 'opensans-regular', sans-serif;
+   transition: background 0.2s ease, color 0.2s ease;
+   text-decoration: none;
+}
+.pub-link:visited { color: #0466c8; }
+.pub-link:hover { background: #0466c8; color: #fff !important; }
+
+/* ------------------------------------------------------------------ */
+/* Experience Section
+/* ------------------------------------------------------------------ */
+
+#experience {
+   background: #fff;
+   padding-top: 90px;
+   padding-bottom: 72px;
+   overflow: hidden;
+}
+#experience a, #experience a:visited  { color: #0466c8; }
+#experience a:hover, #experience a:focus { color: #313131; }
+
+/* ------------------------------------------------------------------ */
+/* Skills Section (dark)
+/* ------------------------------------------------------------------ */
+
+#skills {
+   background: #eef5fd;
+   padding-top: 90px;
+   padding-bottom: 72px;
+   overflow: hidden;
+}
+
+/* Tag pills */
+.skill-tags { padding-top: 6px; text-align: center; }
+
+.skill-category-group { margin-bottom: 36px; }
+.skill-category-group:last-child { margin-bottom: 0; }
+
+.skill-category-group h4 {
+   font: 11px 'opensans-bold', sans-serif;
+   text-transform: uppercase;
+   letter-spacing: 2px;
+   color: #888;
+   margin-bottom: 14px;
+   padding-bottom: 8px;
+   border-bottom: 1px solid #d0dce8;
+}
+
+.tags {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 10px;
+   justify-content: center;
+}
+
+.skill-tag {
+   display: inline-flex;
+   align-items: center;
+   gap: 8px;
+   padding: 8px 18px;
+   background: rgba(4,102,200,0.07);
+   border: 1px solid rgba(4,102,200,0.25);
+   border-radius: 24px;
+   color: #313131;
+   font: 14px 'opensans-regular', sans-serif;
+   transition: background 0.2s ease, border-color 0.2s ease, color 0.2s ease;
+}
+.skill-tag i {
+   font-size: 17px;
+   line-height: 1;
+}
+.skill-level {
+   font-size: 11px;
+   opacity: 0.6;
+   margin-left: 2px;
+}
+.skill-tag:hover {
+   background: #0466c8;
+   border-color: #0466c8;
+   color: #fff;
+}
+
+/* ------------------------------------------------------------------ */
+/* Education Section
+/* ------------------------------------------------------------------ */
+
+#education {
+   background: #eef5fd;
+   padding-top: 90px;
+   padding-bottom: 72px;
+   overflow: hidden;
+}
+#education a, #education a:visited  { color: #0466c8; }
+#education a:hover, #education a:focus { color: #313131; }
+
+/* ------------------------------------------------------------------ */
+/* Publications Section (dark override)
+/* ------------------------------------------------------------------ */
+
+#pubs {
+   background: #fff;
+   padding-top: 90px;
+   padding-bottom: 300px;
+   overflow: hidden;
+}
+#pubs a, #pubs a:visited  { color: #0466c8; }
+#pubs a:hover, #pubs a:focus { color: #313131; }
+#pubs h5 { color: #555; }
+#pubs p { color: #555; }
+
+/* ------------------------------------------------------------------ */
+/* Section Titles (full-width)
+/* ------------------------------------------------------------------ */
+
+.section-title {
+   font: 28px/36px 'opensans-bold', sans-serif;
+   text-transform: uppercase;
+   letter-spacing: 2px;
+   color: #313131;
+   margin-bottom: 36px;
+   padding-bottom: 14px;
+   border-bottom: 3px solid #0466c8;
+   text-align: center;
+}
+
+/* ------------------------------------------------------------------ */
+/* Timeline
+/* ------------------------------------------------------------------ */
+
+.timeline {
+   position: relative;
+   padding: 0;
+   list-style: none;
+   max-width: 640px;
+   margin: 0 auto;
+}
+.timeline::before {
+   content: '';
+   position: absolute;
+   left: 0;
+   top: 8px;
+   bottom: 0;
+   width: 2px;
+   background: #c5def5;
+}
+.timeline-item {
+   position: relative;
+   padding-left: 28px;
+   margin-bottom: 40px;
+}
+.timeline-item::before {
+   content: '';
+   position: absolute;
+   left: -5px;
+   top: 8px;
+   width: 12px;
+   height: 12px;
+   border-radius: 50%;
+   background: #0466c8;
+}
+.timeline-item h3 {
+   font: 17px/24px 'opensans-bold', sans-serif;
+   color: #313131;
+   margin-bottom: 3px;
+}
+.timeline-item .timeline-date {
+   display: block;
+   font: 13px/20px 'librebaskerville-italic', serif;
+   color: #0466c8;
+   margin-bottom: 5px;
+}
+.timeline-item .timeline-org {
+   display: block;
+   font: 15px/24px 'opensans-regular', sans-serif;
+   color: #6E7881;
+}
+.timeline-item p {
+   font: 15px/24px 'opensans-regular', sans-serif;
+   color: #6E7881;
+   margin-top: 8px;
+}
+.timeline-sub {
+   margin-top: 16px;
+   padding-left: 0;
+   list-style: none;
+}
+.timeline-sub li {
+   position: relative;
+   padding-left: 22px;
+   margin-bottom: 20px;
+}
+.timeline-sub li::before {
+   content: '↳';
+   position: absolute;
+   left: 0;
+   top: 0;
+   color: #0466c8;
+   font-size: 16px;
+}
+.timeline-sub-date {
+   display: block;
+   font: 12px/18px 'librebaskerville-italic', serif;
+   color: #0466c8;
+   margin-bottom: 2px;
+}
+.timeline-sub-role {
+   display: block;
+   font: 15px/22px 'opensans-bold', sans-serif;
+   color: #313131;
+   margin-bottom: 1px;
+}
+.timeline-sub-org {
+   display: block;
+   font: 14px/20px 'opensans-regular', sans-serif;
+   color: #6E7881;
+   margin-bottom: 4px;
+}
+.timeline-sub-desc {
+   display: block;
+   font: 14px/22px 'opensans-regular', sans-serif;
+   color: #888;
+}
+
+/* ------------------------------------------------------------------ */
+/* Skill Bar Animations (custom skills)
+/* ------------------------------------------------------------------ */
+
+/* ------------------------------------------------------------------ */
+/* Mobile: Publications
+/* ------------------------------------------------------------------ */
+
+@media only screen and (max-width: 767px) {
+   .pub-stats {
+      gap: 24px;
+      flex-wrap: wrap;
+   }
+   .pub-stat-number {
+      font-size: 56px !important;
+   }
+   .pub-links {
+      flex-direction: column;
+      align-items: center;
+   }
+}
+
+/* ------------------------------------------------------------------ */
+/* Font override: Inter (sans) + Lora italic (serif accent)
+/* ------------------------------------------------------------------ */
+
+body, p, li, a, span, dt, dd, label, legend, button, input,
+h1, h2, h3, h4, h5, h6,
+.timeline-item h3, .timeline-org, .timeline-item p, .timeline-sub li,
+.pub-stat-number, .pub-stat-label, .pub-links-label, .pub-link,
+.skill-tag, .skill-category-group h4,
+.about-social li a,
+nav #nav li a,
+.responsive-headline, .banner-text h3 {
+   font-family: 'Inter', sans-serif !important;
+}
+
+/* Hero headline: heavier weight */
+.responsive-headline {
+   font-weight: 700 !important;
+   letter-spacing: -1px !important;
+}
+
+/* Section titles and item headings: bold */
+h1, h2, h3, h4,
+.timeline-item h3,
+#experience h1, #skills h1, #education h1, #pubs h1 {
+   font-weight: 700 !important;
+}
+
+/* Buttons and links: semibold */
+.button, .pub-link, .skill-tag, nav #nav li a, .buttonMenu {
+   font-weight: 600 !important;
+}
+
+/* Nav bar: bigger, bolder */
+#nav-wrap {
+   font-size: 14px !important;
+   font-weight: 700 !important;
+   letter-spacing: 1.5px !important;
+}
+ul#nav li a {
+   font-weight: 700 !important;
+}
+
+/* Body text: Inter Medium 16px for more visual weight */
+body {
+   font-size: 16px !important;
+   font-weight: 600 !important;
+}
+p, li, .timeline-org, .timeline-item p, .timeline-sub li, .pub-link {
+   font-weight: 600 !important;
+}
+
+.timeline-date,
+#pubs .info,
+blockquote p {
+   font-family: 'Lora', serif !important;
+   font-style: italic !important;
+}
+
