@@ -207,7 +207,7 @@ ul#nav li.current a { color: #4da6ff; }
    text-align: justify !important; /* This fixes the alignment issue */
    max-width: 800px !important;
    margin: 0 auto !important;
-   width: 90%;
+   width: 100% !important;
   
 }
 #about .profile-pic {
