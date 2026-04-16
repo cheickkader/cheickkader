@@ -203,11 +203,11 @@ ul#nav li.current a { color: #4da6ff; }
 }
 #about p {
    display: block !important;
-   line-height: 30px;
+   line-height: 30px !important;
    color: #7A7A7A !important;
    text-align: justify !important; /* This fixes the alignment issue */
    max-width: 800px !important;
-   margin: 0 auto !important;
+   margin: 20px auto !important;
    width: 100% !important;
   
 }
