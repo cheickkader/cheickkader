@@ -204,7 +204,7 @@ ul#nav li.current a { color: #4da6ff; }
 #about p {
    line-height: 30px;
    color: #7A7A7A;
-   text-align: justify; /* This fixes the alignment issue */
+   text-align: center; /* This fixes the alignment issue */
    max-width: 800px !important;
    margin: 0 auto !important;
    width: 90%;
