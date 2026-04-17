@@ -95,6 +95,7 @@ header .social li {
    padding: 0;
 }
 header .social li a { color: #fff; }
+#about .social li a { color: #fff; }
 header .social li a:hover { color: #0466c8; }
 
 /* scrolldown link */
