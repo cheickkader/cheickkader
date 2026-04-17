@@ -203,12 +203,10 @@ ul#nav li.current a { color: #4da6ff; }
    margin-bottom: 12px;
 }
 #about p.about-text {
-   width: auto;
    max-width: 800px;
    line-height: 30px;
    color: #7A7A7A !important;
    text-align: justify !important;
-   margin: 20px auto !important;
 }
 
 #about .profile-pic {
