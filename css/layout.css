@@ -201,7 +201,7 @@ ul#nav li.current a { color: #4da6ff; }
    color: #fff;
    margin-bottom: 12px;
 }
-#about p {
+#about p.about-text {
    display: block !important;
    line-height: 30px !important;
    color: #7A7A7A !important;
@@ -209,6 +209,7 @@ ul#nav li.current a { color: #4da6ff; }
    max-width: 800px !important;
    margin: 20px auto !important;
    width: 100% !important;
+   float: none !important;
   
 }
 #about .profile-pic {
