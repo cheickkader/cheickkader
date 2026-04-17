@@ -202,14 +202,12 @@ ul#nav li.current a { color: #4da6ff; }
    margin-bottom: 12px;
 }
 #about p.about-text {
-   display: table !important; 
-   width: auto !important;
-   max-width: 800px !important;
-   line-height: 30px !important;
-   color: #7A7A7A !important;
-   text-align: justify !important; /* This fixes the alignment issue */
+   width: auto;
+   max-width: 800px;
+   line-height: 30px;
+   color: #7A7A7A;
+   text-align: justify !important;
    margin: 20px auto !important;
-   float: none !important;
 }
 
 #about .profile-pic {
