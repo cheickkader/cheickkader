@@ -202,6 +202,9 @@ ul#nav li.current a { color: #4da6ff; }
    margin-bottom: 12px;
 }
 #about p.about-text {
+	display: table !important; 
+   width: auto !important;
+   max-width: 800px !important;
    display: block !important;
    line-height: 30px !important;
    color: #7A7A7A !important;
@@ -210,8 +213,8 @@ ul#nav li.current a { color: #4da6ff; }
    margin: 20px auto !important;
    width: 100% !important;
    float: none !important;
-  
 }
+
 #about .profile-pic {
    position: relative;
 }
