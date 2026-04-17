@@ -210,25 +210,6 @@ ul#nav li.current a { color: #4da6ff; }
    margin: 20px auto !important;
 }
 
-#about-social {
-   margin: 24px 0;
-   padding: 0;
-   display: flex;
-   justify-content: center; /* This centers the icons under your text */
-   gap: 20px;               /* Adds space between the icons */
-   list-style: none;
-}
-
-.about-social li a {
-   color: #fff;             /* Icon color */
-   font-size: 30px;         /* Icon size */
-   transition: color 0.3s ease;
-}
-
-.about-social li a:hover {
-   color: #0466c8;          /* Changes color when you hover */
-}
-
 #about .profile-pic {
    position: relative;
 }
