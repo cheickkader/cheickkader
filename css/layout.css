@@ -291,7 +291,7 @@ ul#nav li.current a { color: #4da6ff; }
 }
 
 #experience .exp-list {
-    max-width: 700px;      /* controls width */
+    max-width: 1000px;      /* controls width */
     margin: 20px auto;     /* centers horizontally */
     padding-left: 20px;
     text-align: justify;   /* makes text justified */
