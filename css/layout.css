@@ -286,28 +286,30 @@ ul#nav li.current a { color: #4da6ff; }
    margin-top: 6px;
 }
 
-
 #experience .exp-list {
-    max-width: 1000px;      /* controls width */
-    width: 90%;
-	margin: 20px auto;     /* centers horizontally */
-    padding-left: 20px;
-    text-align: justify;   /* makes text justified */
+    max-width: 1100px;      /* Increased width */
+    width: 98%;             /* Pulls the right margin closer to the edge */
+    margin: 20px 0;         /* Aligns with the headings above */
+    padding: 0;
     list-style: none;
 }
 
 #experience .exp-list li {
     margin-bottom: 12px;
-    line-height: 1.6;
+    line-height: 1.8;
+	text-align: justify;    /* THIS makes it look like your picture */
+    position: relative;     /* Required for the checkmark position */
+    padding-left: 30px;     /* Space for the checkmark */
+    color: #7A7A7A;
 }
 
 #experience .exp-list li::before {
-    content: "•";
-    color: #0466c8;
-    font-weight: bold;
-    display: inline-block;
-    width: 1em;
-    margin-left: -1em;
+    content: "✔";           /* Green Checkmark */
+    color: #28a745;         /* The green color */
+	font-weight: bold;
+	position: absolute;     /* Keeps checkmark at the start of the line */
+    left: 0;
+    top: 0;
 }
 
 
