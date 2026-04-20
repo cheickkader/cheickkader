@@ -286,6 +286,23 @@ ul#nav li.current a { color: #4da6ff; }
    margin-top: 6px;
 }
 
+/* ------------------------------------------------------------------ */
+/* Custom - Experience Section (Bullet Points)
+/* ------------------------------------------------------------------ */
+#experience .exp-list {
+    list-style: none;
+}
+
+#experience .exp-list li::before {
+    content: "•";
+    color: #0466c8;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+
 /*----------------------------------------------*/
 /*	Skill Bars
 /*----------------------------------------------*/
@@ -922,22 +939,6 @@ call-to-action .button {
    font: 13px/36px 'opensans-regular', Sans-serif;
    color: #474747 !important;
    border: none;
-}
-
-/* ------------------------------------------------------------------ */
-/* Custom - Experience Section (Bullet Points)
-/* ------------------------------------------------------------------ */
-#experience .exp-list {
-    list-style: none;
-}
-
-#experience .exp-list li::before {
-    content: "•";
-    color: #0466c8;
-    font-weight: bold;
-    display: inline-block;
-    width: 1em;
-    margin-left: -1em;
 }
 
 /* ------------------------------------------------------------------ */
