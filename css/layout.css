@@ -286,13 +286,11 @@ ul#nav li.current a { color: #4da6ff; }
    margin-top: 6px;
 }
 
-#experience .exp-list {
-    list-style: none;
-}
 
 #experience .exp-list {
     max-width: 1000px;      /* controls width */
-    margin: 20px auto;     /* centers horizontally */
+    width: 90%;
+	margin: 20px auto;     /* centers horizontally */
     padding-left: 20px;
     text-align: justify;   /* makes text justified */
     list-style: none;
