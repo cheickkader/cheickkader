@@ -286,11 +286,21 @@ ul#nav li.current a { color: #4da6ff; }
    margin-top: 6px;
 }
 
-/* ------------------------------------------------------------------ */
-/* Custom - Experience Section (Bullet Points)
-/* ------------------------------------------------------------------ */
 #experience .exp-list {
     list-style: none;
+}
+
+#experience .exp-list {
+    max-width: 700px;      /* controls width */
+    margin: 20px auto;     /* centers horizontally */
+    padding-left: 20px;
+    text-align: justify;   /* makes text justified */
+    list-style: none;
+}
+
+#experience .exp-list li {
+    margin-bottom: 12px;
+    line-height: 1.6;
 }
 
 #experience .exp-list li::before {
