@@ -295,12 +295,13 @@ ul#nav li.current a { color: #4da6ff; }
 }
 
 #experience .exp-list li {
-    margin-bottom: 12px;
-    line-height: 1.8;
-	text-align: justify;    /* THIS makes it look like your picture */
-    position: relative;     /* Required for the checkmark position */
-    padding-left: 30px;     /* Space for the checkmark */
-    color: #7A7A7A;
+    max-width: 900px;      /* ← controls “normal” readable width */
+    width: 90%;            /* responsive */
+	text-align: justify;
+    text-justify: inter-word;
+    margin: 20px auto;     /* ← THIS centers it */
+    padding: 0;
+    list-style: none;
 }
 
 #experience .exp-list li::before {
