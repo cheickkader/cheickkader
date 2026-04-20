@@ -288,7 +288,7 @@ ul#nav li.current a { color: #4da6ff; }
 
 #experience .exp-list {
     max-width: 1100px;      /* Increased width */
-    width: 140%;             /* Pulls the right margin closer to the edge */
+    width: 130%;             /* Pulls the right margin closer to the edge */
     margin: 20px 0;         /* Aligns with the headings above */
     padding: 0;
     list-style: none;
