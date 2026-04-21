@@ -222,10 +222,12 @@ ul#nav li.current a { color: #4da6ff; }
 }
 
 #about .main-col { 
-   max-width: 900px;
-   margin: 0 auto;
-   padding: 0 20px;
-   text-align: left;
+  float: none !important;
+  display: block;
+  max-width: 900px;
+  width: 100%;
+  margin: 0 auto;
+  padding-right: 0;
 }
 
 #about .download .button {
