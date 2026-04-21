@@ -215,6 +215,13 @@ ul#nav li.current a { color: #4da6ff; }
    width: 58.33333%;
    padding-top: 6px;
 }
+
+#about .row {
+   max-width: 1200px;
+   width: 95%;
+   margin: 0 auto;
+}
+
 #about .main-col { 
    padding-right: 0;      /* remove extra right spacing */
    max-width: 900px;
