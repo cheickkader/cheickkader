@@ -52,7 +52,7 @@ header .banner {
    vertical-align: middle;
    margin: 0 auto;
    width: 85%;
-   padding-bottom: 30px;s
+   padding-bottom: 30px;
    text-align: center;
 }
 
@@ -1050,24 +1050,3 @@ footer .social-links li:first-child { margin-left: 0; }
  	border-radius: 100%;
 }
 #go-top a:hover { background-color: #0F9095; }
-
-
-/* ===== FIX ABOUT SECTION WIDTH ===== */
-#about .twelve.columns {
-   float: none !important;
-   width: 100% !important;
-}
-
-#about .about-content {
-   max-width: 1000px;
-   margin: 0 auto;
-   padding: 0;
-}
-
-/* ===== FINAL ABOUT TEXT FIX ===== */
-#about .about-text {
-   max-width: 1000px;
-   margin: 0 auto;
-   line-height: 1.8;
-}
-
