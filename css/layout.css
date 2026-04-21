@@ -215,15 +215,12 @@ ul#nav li.current a { color: #4da6ff; }
    width: 58.33333%;
    padding-top: 6px;
 }
-#about .main-col { padding-right: 5%; }
-#about .download {
-   display: flex;
-   width: 100% !important;
-   padding-right: 0 !important;
-   justify-content: center;
-   gap: 12px;
-   flex-wrap: wrap;
+#about .main-col { 
+    padding-right: 0;      /* remove extra right spacing */
+   width: 90%;            /* make it wider */
+   margin: 0 auto;        /* keep it centered */
 }
+
 #about .download .button {
    margin-top: 6px;
    background: #0466c8;
