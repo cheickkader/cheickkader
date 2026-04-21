@@ -202,7 +202,7 @@ ul#nav li.current a { color: #4da6ff; }
    margin-bottom: 12px;
 }
 #about p.about-text {
-   line-height: 1.8
+   line-height: 1.8;
    color: #7A7A7A !important;
    text-align: justify !important;
 }
