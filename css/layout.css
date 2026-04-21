@@ -304,12 +304,12 @@ ul#nav li.current a { color: #4da6ff; }
 }
 
 #experience .exp-list li::before {
-   /* Using a Unicode checkmark instead of an image to prevent 'disappearing' bullets */
-    content: "\2705";       /* This is the Green Circled Checkmark code */
-    position: absolute;
+   content: "✔";           /* Green Checkmark */
+    color: #28a745;         /* The green color */
+    font-weight: bold;
+    position: absolute;     /* Keeps checkmark at the start of the line */
     left: 0;
-    top: 2px;
-    font-size: 18px;        /* Matches your text height */
+    top: 0;
 }
 
 /*----------------------------------------------*/
