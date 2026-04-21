@@ -222,12 +222,10 @@ ul#nav li.current a { color: #4da6ff; }
 }
 
 #about .main-col { 
-  float: none !important;
-   display: block;
    max-width: 900px;
-   width: 100%;
    margin: 0 auto;
-   padding-right: 0;
+   padding: 0 20px;
+   text-align: left;
 }
 
 #about .download .button {
@@ -1064,5 +1062,12 @@ footer .social-links li:first-child { margin-left: 0; }
    max-width: 900px;
    margin: 0 auto;
    padding: 0;
+}
+
+/* ===== FINAL ABOUT TEXT FIX ===== */
+#about .about-text {
+   max-width: 850px;
+   margin: 0 auto;
+   line-height: 1.8;
 }
 
