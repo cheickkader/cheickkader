@@ -202,7 +202,7 @@ ul#nav li.current a { color: #4da6ff; }
    margin-bottom: 12px;
 }
 #about p.about-text {
-   line-height: 30px;
+   line-height: 1.8
    color: #7A7A7A !important;
    text-align: justify !important;
 }
@@ -216,8 +216,8 @@ ul#nav li.current a { color: #4da6ff; }
    padding-top: 6px;
 }
 #about .main-col { 
-    padding-right: 0;      /* remove extra right spacing */
-   width: 90%;            /* make it wider */
+   padding-right: 0;      /* remove extra right spacing */
+   width: 110%;            /* make it wider */
    margin: 0 auto;        /* keep it centered */
 }
 
