@@ -1059,14 +1059,14 @@ footer .social-links li:first-child { margin-left: 0; }
 }
 
 #about .about-content {
-   max-width: 900px;
+   max-width: 1000px;
    margin: 0 auto;
    padding: 0;
 }
 
 /* ===== FINAL ABOUT TEXT FIX ===== */
 #about .about-text {
-   max-width: 900px;
+   max-width: 1000px;
    margin: 0 auto;
    line-height: 1.8;
 }
