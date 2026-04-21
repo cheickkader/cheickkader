@@ -1053,3 +1053,16 @@ footer .social-links li:first-child { margin-left: 0; }
 }
 #go-top a:hover { background-color: #0F9095; }
 
+
+/* ===== FIX ABOUT SECTION WIDTH ===== */
+#about .twelve.columns {
+   float: none !important;
+   width: 100% !important;
+}
+
+#about .about-content {
+   max-width: 900px;
+   margin: 0 auto;
+   padding: 0;
+}
+
