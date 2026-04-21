@@ -304,21 +304,12 @@ ul#nav li.current a { color: #4da6ff; }
 }
 
 #experience .exp-list li::before {
-   /* Step 1: Tell the browser we are using an image, not text */
-    content: ""; 
-    background-image: url('../images/circled-checkmark.png'); /* IMPORTANT: Read path below */
-    background-size: contain; /* Scales the image to fit */
-    background-repeat: no-repeat;
-    
-    /* Step 2: Set the size for the bullet */
-    width: 20px;   /* Adjusted size to match text height */
-    height: 20px;
-    
-    /* Step 3: Align it perfectly with the text */
+   /* Using a Unicode checkmark instead of an image to prevent 'disappearing' bullets */
+    content: "\2705";       /* This is the Green Circled Checkmark code */
     position: absolute;
     left: 0;
-    top: 5px; /* Adjust this number (in pixels) to move the icon up or down */
-    font-weight: normal; /* Removes old text style */
+    top: 2px;
+    font-size: 18px;        /* Matches your text height */
 }
 
 /*----------------------------------------------*/
