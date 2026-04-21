@@ -217,15 +217,17 @@ ul#nav li.current a { color: #4da6ff; }
 }
 
 #about .row {
-   max-width: 1200px;
-   width: 95%;
-   margin: 0 auto;
+   max-width: 1200px !important;
+   width: 95% !important;
 }
 
 #about .main-col { 
-   padding-right: 0;      /* remove extra right spacing */
+  float: none !important;
+   display: block;
    max-width: 900px;
-   margin: 0 auto;/* keep it centered */
+   width: 100%;
+   margin: 0 auto;
+   padding-right: 0;
 }
 
 #about .download .button {
