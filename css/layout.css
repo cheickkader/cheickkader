@@ -1066,7 +1066,7 @@ footer .social-links li:first-child { margin-left: 0; }
 
 /* ===== FINAL ABOUT TEXT FIX ===== */
 #about .about-text {
-   max-width: 850px;
+   max-width: 900px;
    margin: 0 auto;
    line-height: 1.8;
 }
