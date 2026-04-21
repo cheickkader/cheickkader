@@ -304,14 +304,25 @@ ul#nav li.current a { color: #4da6ff; }
 }
 
 #experience .exp-list li::before {
-   content: "✔";           /* Green Checkmark */
-    color: #28a745;         /* The green color */
+   content: "✔";
+    color: #28a745;              /* check color */
+    font-size: 12px;
     font-weight: bold;
-    position: absolute;     /* Keeps checkmark at the start of the line */
-    left: 0;
-    top: 0;
-}
 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 18px;
+    height: 18px;
+
+    border: 2px solid #28a745;   /* circle border */
+    border-radius: 50%;          /* makes it round */
+
+    position: absolute;
+    left: 0;
+    top: 4px;                    /* vertical alignment tweak */
+}
 /*----------------------------------------------*/
 /*	Skill Bars
 /*----------------------------------------------*/
