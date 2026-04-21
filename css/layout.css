@@ -218,6 +218,7 @@ ul#nav li.current a { color: #4da6ff; }
 #about .main-col { padding-right: 5%; }
 #about .download {
    display: flex;
+   width: 100% !important;
    justify-content: center;
    gap: 12px;
    flex-wrap: wrap;
