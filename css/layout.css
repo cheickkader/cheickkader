@@ -1027,8 +1027,8 @@ footer .social-links li:first-child { margin-left: 0; }
 
 /* Go To Top Button */
 #go-top {
-	position: absolute;
-	top: -24px;
+	position: relative;
+	top: -34px;
    left: 50%;
    margin-left: -30px;
 }
