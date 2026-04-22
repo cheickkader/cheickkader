@@ -1027,11 +1027,10 @@ footer .social-links li:first-child { margin-left: 0; }
 
 /* Go To Top Button */
 #go-top {
-	position: absolute;
-   top: -60px;              /* push it higher (KEY FIX) */
+   position: absolute;
+   top: -60px;
    left: 50%;
-   transform: translateX(-50%);
-   z-index: 999;            /* ensure it's above sections */
+   margin-left: -30px;
 }
 #go-top a {
 	text-decoration: none;
