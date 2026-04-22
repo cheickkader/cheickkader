@@ -18,14 +18,14 @@
 // changeLanguage(); // TODO aggiungi css che di partenza nasconde uno dei due
 
 function changeLanguageButton(selectedLang){
-	if(selectedLang == "it"){
+	if(selectedLang == "fr"){
 		//$("[lang='"+selectedLang+"']").hide();
 		$("[lang='en']").hide();
-		$("[lang='it']").show();
+		$("[lang='fr']").show();
 	}
 	if(selectedLang == "en"){
 		//$("[lang='"+selectedLang+"']").hide();
-		$("[lang='it']").hide();
+		$("[lang='fr']").hide();
 		$("[lang='en']").show();
 	}
 }
