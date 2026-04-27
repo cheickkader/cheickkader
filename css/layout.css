@@ -274,7 +274,7 @@ ul#nav li.current a { color: #4da6ff; }
 #resume .header-col { padding-top: 9px; }
 #resume .main-col { 
 	padding-right: 2%;
-	wide: 100%; /* Changed from wide to width */
+	width: 100%;
 }
 
 .education, .work {
