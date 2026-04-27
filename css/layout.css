@@ -350,7 +350,7 @@ ul#nav li.current a { color: #4da6ff; }
         hyphens: none;
         -webkit-hyphens: none;
     }
-	pub-links-label {
+	.pub-links-label {
         text-align: left;              /* better readability on phone */
         font-size: 14px;
         line-height: 1.5;
