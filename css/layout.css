@@ -303,6 +303,7 @@ ul#nav li.current a { color: #4da6ff; }
 }
 
 #experience .exp-list li {
+	hyphens: auto;   /* helps reduce spacing issues */
     margin-bottom: 16px;
     line-height: 1.8;       /* More breathing room between lines */
     text-align: justify;    /* THIS makes it look like your picture */
