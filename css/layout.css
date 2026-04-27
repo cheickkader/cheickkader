@@ -349,6 +349,30 @@ ul#nav li.current a { color: #4da6ff; }
         -webkit-hyphens: none;
     }
 }
+
+/* Contact Section Fix */
+    #contact label {
+        float: none !important;
+        width: 100% !important;
+        text-align: left;
+    }
+
+    #contact input, 
+    #contact textarea, 
+    #contact select {
+        width: 100% !important; /* Prevents text boxes from going off-screen */
+        margin-bottom: 20px;
+    }
+
+    #contact button.submit {
+        margin-left: 0 !important; /* Aligns button to the left edge */
+        width: 100% !important;
+    }
+
+    #message-warning, #message-success {
+        width: 100% !important;
+        margin-left: 0 !important;
+    }
 /*----------------------------------------------*/
 /*	Skill Bars
 /*----------------------------------------------*/
