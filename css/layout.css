@@ -202,9 +202,17 @@ ul#nav li.current a { color: #4da6ff; }
    margin-bottom: 12px;
 }
 #about p.about-text {
-   line-height: 1.8;
+   line-height: 1.85;
    color: #7A7A7A !important;
    text-align: justify !important;
+   text-justify: inter-word;
+   hyphens: auto;
+   -webkit-hyphens: auto;
+   -ms-hyphens: auto;
+   overflow-wrap: break-word;
+   word-break: normal;
+   max-width: 820px;
+   margin: 0 auto;
 }
 
 #about .profile-pic {
@@ -344,11 +352,17 @@ ul#nav li.current a { color: #4da6ff; }
     #resume .main-col {
         padding-right: 0 !important;
     }
-    #experience .exp-list li {
+   #experience .exp-list li {
         text-align: left;
         line-height: 1.7;
-        hyphens: none;
-        -webkit-hyphens: none;
+        hyphens: auto;
+        -webkit-hyphens: auto;
+        overflow-wrap: break-word;
+    }
+    #about p.about-text {
+        padding: 0 12px;
+        font-size: 0.98rem;
+        line-height: 1.75;
     }
 }
 /*----------------------------------------------*/
