@@ -310,7 +310,7 @@ ul#nav li.current a { color: #4da6ff; }
     -webkit-hyphens: auto;
     margin-bottom: 16px;
     line-height: 1.8;       /* More breathing room between lines */
-    text-align: justify;    /* THIS makes it look like your picture */
+    text-align: left;    /* THIS makes it look like your picture */
     position: relative;     /* Required for the checkmark position */
     padding-left: 30px;     /* Space for the checkmark */
     color: #7A7A7A;
