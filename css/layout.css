@@ -35,7 +35,7 @@ header {
    width: 100%;
    background: #161415 url(../images/header-background.jpg) no-repeat top center;
    background-size: cover !important;
-	-webkit-background-size: cover !important;
+   -webkit-background-size: cover !important;
    text-align: center;
    overflow: hidden;
 }
@@ -310,7 +310,7 @@ ul#nav li.current a { color: #4da6ff; }
     -webkit-hyphens: auto;
     margin-bottom: 16px;
     line-height: 1.8;       /* More breathing room between lines */
-    text-align: left;    /* THIS makes it look like your picture */
+    text-align: justify;    /* THIS makes it look like your picture */
     position: relative;     /* Required for the checkmark position */
     padding-left: 30px;     /* Space for the checkmark */
     color: #7A7A7A;
