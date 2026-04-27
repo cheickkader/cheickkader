@@ -306,15 +306,15 @@ ul#nav li.current a { color: #4da6ff; }
 }
 
 #experience .exp-list li {
-	hyphens: auto;   /* helps reduce spacing issues */
+	 hyphens: auto;
     -webkit-hyphens: auto;
     margin-bottom: 16px;
-    line-height: 1.8;       /* More breathing room between lines */
-    text-align: justify;/* THIS makes it look like your picture */
-	text-justify: inter-word;
-	word-break: break-word;
-    position: relative;     /* Required for the checkmark position */
-    padding-left: 30px;     /* Space for the checkmark */
+    line-height: 1.8;
+    text-align: justify;
+    text-justify: inter-word;
+    word-break: break-word;
+    position: relative;
+    padding-left: 30px;
     color: #7A7A7A;
 }
 
@@ -345,11 +345,17 @@ ul#nav li.current a { color: #4da6ff; }
         padding-right: 0 !important;
     }
     #experience .exp-list li {
-        text-align: left;
-        line-height: 1.7;
+        text-align: left !important;
+        line-height: 1.6;
         hyphens: none;
         -webkit-hyphens: none;
     }
+	pub-links-label {
+        text-align: left;              /* better readability on phone */
+        font-size: 14px;
+        line-height: 1.5;
+	}
+
 }
 /*----------------------------------------------*/
 /*	Skill Bars
@@ -968,6 +974,15 @@ call-to-action .button {
    position: relative;
    left: 18px;
    top: 17px;
+}
+
+pub-links-label {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 0 16px;          /* prevents touching screen edge */
+    text-align: center;
+    line-height: 1.6;
+    word-break: break-word;   /* prevents overflow */
 }
 
 
