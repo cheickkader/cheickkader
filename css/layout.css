@@ -339,9 +339,14 @@ ul#nav li.current a { color: #4da6ff; }
 
 /* Mobile fix */
 @media screen and (max-width: 768px) {
+    #resume .main-col {
+        padding-right: 0 !important;
+    }
     #experience .exp-list li {
-        text-align: left;     /* ✅ removes ugly spacing */
-        line-height: 1.7;     /* slightly tighter for phone */
+        text-align: left;
+        line-height: 1.7;
+        hyphens: none;
+        -webkit-hyphens: none;
     }
 }
 /*----------------------------------------------*/
