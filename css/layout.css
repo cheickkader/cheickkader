@@ -300,9 +300,9 @@ ul#nav li.current a { color: #4da6ff; }
 }
 
 #experience .exp-list {
-    max-width: 1100px;      /* Increased width */
-    width: 100%;             /* Pulls the right margin closer to the edge */
-    margin: 20px auto;         /* Aligns with the headings above */
+    max-width: 900px;   /* Increased width */
+    width: 100% !important;  /* Pulls the right margin closer to the edge */
+    margin: 20px 0;  /* Aligns with the headings above */
     padding: 0 15px;
     list-style: none;
 }
