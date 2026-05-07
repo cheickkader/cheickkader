@@ -226,7 +226,7 @@ ul#nav li.current a { color: #4da6ff; }
 #about .main-col { 
   float: none !important;
   display: block;
-  max-width: 1000px;
+  max-width: 900px;
   width: 100%;
   margin: 0 auto;
   padding-right: 0;
