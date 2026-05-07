@@ -300,7 +300,7 @@ ul#nav li.current a { color: #4da6ff; }
 }
 
 #experience .exp-list {
-    max-width: 900px;      /* Increased width */
+    max-width: 1000px;      /* Increased width */
     width: 100%;             /* Pulls the right margin closer to the edge */
     margin: 20px auto;         /* Aligns with the headings above */
     padding: 0 15px;
@@ -312,9 +312,8 @@ ul#nav li.current a { color: #4da6ff; }
     -webkit-hyphens: auto;
     margin-bottom: 16px;
     line-height: 1.8;
-    text-align: left !important;
+    text-align: justify !important;
     text-justify: inter-word !important;
-    word-break: normal !important;
     position: relative;
     padding-left: 30px;
     color: #7A7A7A;
