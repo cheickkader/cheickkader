@@ -205,7 +205,7 @@ ul#nav li.current a { color: #4da6ff; }
     line-height: 1.9;
     color: #7A7A7A !important;
     text-align: justify !important;
-	mid0width: 900px;
+	max-width: 900px;
 	margin: 0 auto;
 }
 
@@ -226,7 +226,7 @@ ul#nav li.current a { color: #4da6ff; }
 #about .main-col { 
   float: none !important;
   display: block;
-  max-width: 900px;
+  max-width: 1000px;
   width: 100%;
   margin: 0 auto;
   padding-right: 0;
