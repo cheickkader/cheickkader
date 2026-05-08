@@ -205,8 +205,6 @@ ul#nav li.current a { color: #4da6ff; }
     line-height: 1.9;
     color: #7A7A7A !important;
     text-align: justify !important;
-	max-width: 1100px;
-	margin: 0 auto;
 }
 
 #about .profile-pic {
