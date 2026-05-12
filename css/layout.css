@@ -1086,21 +1086,3 @@ footer .social-links li:first-child { margin-left: 0; }
  	border-radius: 100%;
 }
 #go-top a:hover { background-color: #0F9095; }
-
-/* Mobile fix */
-@media screen and (max-width: 768px) {
-    #resume .main-col {
-        padding-right: 0 !important;
-    }
-    #experience .exp-list li {
-        text-align: left !important;
-        line-height: 1.6;
-        hyphens: none;
-        -webkit-hyphens: none;
-    }
-    .pub-links-label {
-        text-align: left;
-        font-size: 14px;
-        line-height: 1.5;
-    }
-}
