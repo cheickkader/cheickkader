@@ -974,7 +974,7 @@ call-to-action .button {
    top: 17px;
 }
 
-pub-links-label {
+.pub-links-label {
     max-width: 700px;
     margin: 0 auto;
     padding: 0 16px;          /* prevents touching screen edge */
@@ -1087,42 +1087,60 @@ footer .social-links li:first-child { margin-left: 0; }
 }
 #go-top a:hover { background-color: #0F9095; }
 
-/* ================= MOBILE FIX ================= */
-@media screen and (max-width: 768px) {
+/* ===== FINAL MOBILE FIX ===== */
+@media only screen and (max-width: 768px) {
 
-    /* ABOUT SECTION */
-    #about .row,
-    #about .main-col {
+    html, body {
+        overflow-x: hidden;
+        width: 100%;
+    }
+
+    .row {
         width: 100% !important;
-        max-width: 100% !important;
+        margin: 0 !important;
         padding-left: 15px !important;
         padding-right: 15px !important;
-        margin: 0 auto !important;
+        box-sizing: border-box;
     }
 
-    #about p.about-text {
-        text-align: left !important;
-        text-justify: auto !important;
-        word-spacing: normal !important;
-        letter-spacing: normal !important;
-        line-height: 1.8 !important;
-        width: 100% !important;
+    #about,
+    #resume,
+    #portfolio,
+    #contact {
+        overflow-x: hidden;
     }
 
-    /* EXPERIENCE SECTION */
+    #about .main-col,
+    #resume .main-col,
     #experience .exp-list {
         width: 100% !important;
         max-width: 100% !important;
-        padding: 0 10px !important;
+        padding: 0 !important;
+        margin: 0 auto !important;
+        box-sizing: border-box;
     }
 
-    #experience .exp-list li {
+    #experience .exp-list li,
+    #about p.about-text {
         text-align: left !important;
-        text-justify: auto !important;
-        word-spacing: normal !important;
-        letter-spacing: normal !important;
-        line-height: 1.7 !important;
-        padding-right: 5px !important;
+        word-break: break-word;
+        overflow-wrap: break-word;
+        hyphens: none !important;
     }
 
+    header .banner-text h1 {
+        font-size: 42px !important;
+        line-height: 1.2 !important;
+    }
+
+    header .banner-text h3 {
+        width: 95% !important;
+        font-size: 16px !important;
+        line-height: 1.6 !important;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
 }
