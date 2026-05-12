@@ -356,6 +356,27 @@ ul#nav li.current a { color: #4da6ff; }
 	}
 
 }
+
+/* ================= MOBILE FIX ================= */
+@media screen and (max-width: 768px) {
+
+    /* ABOUT ME text */
+    #about p.about-text {
+        text-align: left !important;
+        line-height: 1.8;
+        padding: 0 12px;
+        word-spacing: normal !important;
+    }
+
+    /* EXPERIENCE text */
+    #experience .exp-list li {
+        text-align: left !important;
+        line-height: 1.7;
+        padding-right: 10px;
+        word-spacing: normal !important;
+    }
+
+}
 /*----------------------------------------------*/
 /*	Skill Bars
 /*----------------------------------------------*/
