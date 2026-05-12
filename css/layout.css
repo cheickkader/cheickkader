@@ -1087,61 +1087,20 @@ footer .social-links li:first-child { margin-left: 0; }
 }
 #go-top a:hover { background-color: #0F9095; }
 
-
-/* ===== FINAL MOBILE FIX ===== */
-@media only screen and (max-width: 768px) {
-
-    html, body {
-        overflow-x: hidden;
-        width: 100%;
+/* Mobile fix */
+@media screen and (max-width: 768px) {
+    #resume .main-col {
+        padding-right: 0 !important;
     }
-
-    .row {
-        width: 100% !important;
-        margin: 0 !important;
-        padding-left: 15px !important;
-        padding-right: 15px !important;
-        box-sizing: border-box;
-    }
-
-    #about,
-    #resume,
-    #portfolio,
-    #contact {
-        overflow-x: hidden;
-    }
-
-    #about .main-col,
-    #resume .main-col,
-    #experience .exp-list {
-        width: 100% !important;
-        max-width: 100% !important;
-        padding: 0 !important;
-        margin: 0 auto !important;
-        box-sizing: border-box;
-    }
-
-    #experience .exp-list li,
-    #about p.about-text {
+    #experience .exp-list li {
         text-align: left !important;
-        word-break: break-word;
-        overflow-wrap: break-word;
-        hyphens: none !important;
+        line-height: 1.6;
+        hyphens: none;
+        -webkit-hyphens: none;
     }
-
-    header .banner-text h1 {
-        font-size: 42px !important;
-        line-height: 1.2 !important;
-    }
-
-    header .banner-text h3 {
-        width: 95% !important;
-        font-size: 16px !important;
-        line-height: 1.6 !important;
-    }
-
-    img {
-        max-width: 100%;
-        height: auto;
+    .pub-links-label {
+        text-align: left;
+        font-size: 14px;
+        line-height: 1.5;
     }
 }
